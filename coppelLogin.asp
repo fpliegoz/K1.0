@@ -3,6 +3,7 @@
 <!--#include file="./khorBD.asp"-->
 <!--#include file="./coppelLoginAux.asp"-->
 <%
+  Modificacion unica de coppel files
   thispage = "coppelLogin.asp"
   loginConfigURL = khorLoginURL()
   'loginForceConfigURL: variable dirty para forzar a que se use pagina especial de login, nunca esta
