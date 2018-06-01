@@ -1,5 +1,5 @@
 <%
-  lblCOBO_BienvenidaEncuesta = ""'en coboAplica.asp se muestra una bienvenida si el cliente lo requiere (se modifica en khorLabelEspecial.asp)
+  lblCOBO_BienvenidaEncuesta = ""'loth modificiacion en coboAplica.asp se muestra una bienvenida si el cliente lo requiere (se modifica en khorLabelEspecial.asp)
   lblCOBO_Encuesta = "Encuesta"
   
   lblCobo_ExcluirSeleccionados = "Excluir seleccionados"
