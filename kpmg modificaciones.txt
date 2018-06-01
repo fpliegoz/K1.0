@@ -1,0 +1,37 @@
+Color en fijo verde quitar el efecto del hover
+menu el mover todo es ARIAL TITULO 00338D
+el menu y la letra debe ser arial siempre si o si
+El contenedor blanco  centramos todos los contenedores de en medio en Bold y centrado 
+Registrate inicia sesion Bold y azul fuerte princilap 00338 19 px de cada paddin dar mas espacio al de buqueda vacante 
+
+Buscar vacante del boton debe ir en BOLD
+
+H2 body copy: Arial, 20px/1.2. KPMG Blue siempre 
+
+letra en espacio entre 
+
+En el buscador agregar busqueda por palabra o FOLIO
+
+Limpiar quitar filtros de abajo
+
+Quitar espacios en los botones de ver y aplica
+
+todos los titulos en BOLD
+
+Practica es la que nos dice q
+
+Poner funcionalidad de esas lienas de servicio de catalogo
+
+Todos las ligas de talento la de facebooco y twiter de talento.
+
+Pregunta y respuesta y no la descripcion del puesto  
+ARrib es titulo linea de servio mercados de consumo que es el area
+LA manita en todo los botones
+
+el boton de Ver todos y el boton que ocupen toda la pantalla de contactanos y todo el boton
+
+Compartir el catalogo de las ares o areas de interes
+
+
+
+ 

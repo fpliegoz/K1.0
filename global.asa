@@ -1,0 +1,32 @@
+<script language="vbscript" runat="server">
+
+Sub Application_OnStart()
+  Application("conn_dbtype")="(dbtype)"
+  Application("conn_servername") = "(local)\SQLExpress"
+  Application("conn_dbname")="khorAutofinDVA"
+  Application("conn_username") = "sa"
+  Application("conn_password") = "Zaq123edc."
+  Application("conn_timeout") = 100
+  Application("conn_dbfiles")="khorAutofinDVADoc"
+  ''********** NO MODIFICAR NADA POR DEBAJO DE ESTA LINEA **************************
+  if ucase(Application("conn_dbtype"))="ORACLE" then
+    Application("conn_string") = "DRIVER={Oracle en OraHome92};SERVER=" & Application("conn_servername") & ";UID="& Application("conn_username") &";PWD="& Application("conn_password") & ";DATABASE=" & Application("conn_dbname") & ";DBQ=" & Application("conn_dbname")
+  else
+    Application("conn_string") = "DRIVER={SQL SERVER};SERVER=" & Application("conn_servername") & ";UID="& Application("conn_username") &";PWD="& Application("conn_password") &";APP=Khor;WSID=Khor;timeout=" & Application("conn_timeout") & ";DATABASE=" & Application("conn_dbname")
+    if Application("conn_dbfiles")<>"" then
+      Application("conn_string_files") = "DRIVER={SQL SERVER};SERVER=" & Application("conn_servername") & ";UID="& Application("conn_username") &";PWD="& Application("conn_password") &";APP=Khor;WSID=Khor;timeout=" & Application("conn_timeout") & ";DATABASE=" & Application("conn_dbfiles")
+    end if
+  end if
+End Sub
+
+''********************************************************************************
+''********** NO MODIFICAR NADA POR DEBAJO DE ESTA LINEA **************************
+''********************************************************************************
+
+Sub Session_OnStart()
+End Sub
+
+Sub Session_OnEnd()
+End Sub
+
+</script>
