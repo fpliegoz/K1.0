@@ -2,7 +2,7 @@
 <!--#include file="./ed_class.asp"-->
 <!--#include file="./edk_auxiliar.asp"-->
 <!--#include file="./plazaClass.asp"-->
-<%
+<%Modificacion al producto
   thispage = "EDK_Revision.asp"
   thispageid = "FRMedkRevision"
   '-- Validacion de acceso: modulo habilitado y sesion activa
